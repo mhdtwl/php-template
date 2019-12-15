@@ -1,0 +1,29 @@
+{
+    "name": "user/my-blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mhd-twl",
+            "email": "mhmdaltawel@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "6"
+    },
+    "require-dev":{
+
+    },
+    "autoload":{
+    	"psr-4":{
+    		"App\\": "app/src",
+    		"Test\\": "app/tests"
+    	},
+    	"files":[
+			"app/src/functions.php"    		
+    	],
+    	"classmap":[
+    		"app/src/classes"
+    	]
+    }
+
+}
